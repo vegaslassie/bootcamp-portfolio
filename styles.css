@@ -111,7 +111,7 @@ a:hover {
 
 .columns-2 {
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(1, 1fr);
     width: 40%;
     margin: 10px auto 0 auto;
@@ -135,8 +135,8 @@ h3 {
   font-size: 30px;
 }
 p {
-  line-height: 2;
-  font-size: large;
+  line-height: 1.5;
+  font-size: small;
 }
 h2, h3 {
   letter-spacing: .2rem;
