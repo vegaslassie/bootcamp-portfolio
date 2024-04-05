@@ -1,0 +1,151 @@
+/*
+Color Palette
+#E0F4FF light blue
+#87C4FF medium blue
+#39A7FF darker blue
+#FFEED9 sand
+
+dark blue from jpg
+#0097CE Celestial Blue
+#C490D1 Wisteria (lt. purple)
+#C6EEF7 Light blue
+#363636 Jet
+#242F40 Gunmetal
+
+jpg
+attribution: 
+<a href="https://www.vecteezy.com/free-vector/abstract">Abstract Vectors by Vecteezy</a>
+
+SVG
+
+*/
+
+
+
+body {
+  background-image: url(./images/background.jpg);background-repeat:no-repeat;
+  width: 100%;
+  background-size: auto;
+
+}
+h1, h3 {
+  color #87C4FF;
+}
+.container {
+  display: flex;
+}
+nav {
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3rem;
+
+}
+.item {
+  list-style-type: none;
+  padding-right: 2rem;
+}
+.item > a {
+  color: #242F40;
+  text-decoration: none;
+  font-size: large;
+}
+.item > a:hover {
+  color: #C490D1;
+}
+.email, .copyright, a {
+  color: #242F40;
+  text-decoration: none;
+}
+a:hover {
+  color: #C490D1;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.image-round {
+  border-radius: 50%;
+  padding: 3rem;
+}
+.blobs {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.about {
+  background-color: #C6EEF7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  padding: 4rem;
+}
+
+.skills {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  padding: 4rem;
+}
+.project {
+  background-color: #C6EEF7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  padding: 4rem;
+
+}
+
+.square-image {
+  border-radius: 5%;
+  margin-top: 3rem;
+}
+
+.columns-2 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 40%;
+    margin: 10px auto 0 auto;
+    text-align: left;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello {
+  padding-left: 3rem;
+}
+h2, h3 {
+  color: #C490D1;
+}
+
+h2 {
+  font-size: 40px;;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  line-height: 2;
+  font-size: large;
+}
+h2, h3 {
+  letter-spacing: .2rem;
+}
+
+.bottom-container {
+  background-color: #0097CE;
+  padding: 50px 0 20px;
+  display: block;
+  text-align: center;
+}
+
